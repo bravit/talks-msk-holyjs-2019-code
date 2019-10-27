@@ -1,3 +1,0 @@
-
-checker = new CheckingTM()
-check()
