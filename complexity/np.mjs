@@ -1,0 +1,3 @@
+
+checker = new CheckingTM()
+check()
