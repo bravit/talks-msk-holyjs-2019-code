@@ -1,6 +1,6 @@
-import {logSolution} from "./problems/utils.mjs"
-import {natWords, primeWords} from "./problems/generators.mjs";
-import {Lang} from "./problems/problems.mjs";
+import { logSolution } from "./problems/utils.mjs";
+import { natWords, primeWords } from "./problems/generators.mjs";
+import { Lang } from "./problems/problems.mjs";
 
 let natLang = new Lang(natWords, "NatLang");
 logSolution(natLang, "|||");

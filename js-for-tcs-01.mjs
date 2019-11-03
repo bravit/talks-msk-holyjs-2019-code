@@ -1,13 +1,13 @@
-import {isPrime, logSolution} from "./problems/utils.mjs"
-import {DecisionProblem} from "./problems/problems.mjs";
+import { isPrime, logSolution } from "./problems/utils.mjs";
+import { DecisionProblem } from "./problems/problems.mjs";
 
 class PrimalityTest extends DecisionProblem {
-    constructor() {
-        super("PrimalityTest")
-    }
-    solve(instance) {
-        return isPrime(instance)
-    }
+  constructor() {
+    super("PrimalityTest");
+  }
+  solve(instance) {
+    return isPrime(instance);
+  }
 }
 
 let primalityTest = new PrimalityTest();

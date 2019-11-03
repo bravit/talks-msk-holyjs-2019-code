@@ -1,21 +1,21 @@
-import { strict as assert } from 'assert';
+import { strict as assert } from "assert";
 
-import {Tape} from "./tape.mjs"
+import { Tape } from "./tape.mjs";
 
 let t = new Tape("hello");
 assert.equal(t.word(), "hello");
 t.moveLeft();
-t.write('!');
+t.write("!");
 t.moveRight();
 t.moveRight();
 t.moveRight();
 t.moveRight();
 t.moveRight();
 t.moveRight();
-t.write('!');
+t.write("!");
 assert.equal(t.word(), "!hello!");
 
-import { State } from "./machine.mjs"
+import { State } from "./machine.mjs";
 
 let s = new State(3);
 s.set(2);
